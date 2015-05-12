@@ -8,6 +8,7 @@ import javax.ws.rs.core.Response;
 @Path("/show-on-screen")
 public class JerseyHelloWorldService
 {
+
 	@GET
 	@Path("/{message}")
 	public Response getMsg(@PathParam("message") String msg)
